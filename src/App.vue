@@ -27,7 +27,7 @@ export default {
   margin-top: 0px;
   height:99vh;
   margin:0 auto;
-  overflow:hidden;
+
   padding:0px;
 
 }
