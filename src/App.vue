@@ -31,4 +31,9 @@ export default {
   padding:0px;
 
 }
+@media (max-width:768px){
+#app{
+height:auto;
+}
+}
 </style>
