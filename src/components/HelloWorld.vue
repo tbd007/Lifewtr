@@ -229,9 +229,9 @@ margin-top:50px;
 width:auto;
 }
 .hand{
-top:70%;
-left:50%;
-width:230px;
+top:65%;
+left:40%;
+width:290px;
 }
 .info{
 width:78%;
