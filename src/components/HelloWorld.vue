@@ -231,7 +231,7 @@ width:auto;
 .hand{
 top:70%;
 left:50%;
-width:180px;
+width:230px;
 }
 .info{
 width:78%;
