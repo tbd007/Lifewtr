@@ -230,7 +230,7 @@ width:auto;
 }
 .hand{
 top:65%;
-left:40%;
+left:30%;
 width:290px;
 }
 .info{
