@@ -251,7 +251,7 @@ margin-left:100px;
 font-size:14px;
 }
 .logo{
-top:-9%;
+top:-8%;
 left:36%;
 }
 .fade-enter-active,
