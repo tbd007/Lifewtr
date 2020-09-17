@@ -220,11 +220,11 @@ z-index:2;
 
 @media (max-width:768px){
 .wrapper {
-grid-template-rows: 95vh auto;
-grid-template-columns:100%;
+grid-template-rows: 99vh auto;
+grid-template-columns:auto;
 }
 img{
-height:47vh;
+height:300px;
 margin-top:50px;
 width:auto;
 }
@@ -248,10 +248,26 @@ padding-bottom:40px;
 }
 .btn {
 margin-left:100px;
+font-size:14px;
 }
 .logo{
 top:-9%;
 left:36%;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width:45vw;
+  opacity: 1;
+}
+.fade-enter,
+.fade-leave-to {
+  visibility: hidden;
+  width:45vw;
+  opacity: 0;
 }
 }
 </style>
