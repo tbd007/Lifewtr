@@ -167,7 +167,7 @@ text-shadow:1px 1px 1px palevioletred;
 
 .logo{
 position:absolute;
-top:-1.5%;
+top:-1.9%;
 right:48%;
 height:100px;
 width:auto;
