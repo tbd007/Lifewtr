@@ -2,6 +2,8 @@
 
 powered by Vue.js
 
+![lifewtr](https://user-images.githubusercontent.com/58664635/93432113-5b2ad180-f8c5-11ea-86cb-4b0a58387e79.gif)
+
 ## Project setup
 ```
 npm install
