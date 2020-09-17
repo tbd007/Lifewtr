@@ -217,4 +217,41 @@ z-index:2;
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.9);
 }
+
+@media (max-width:768px){
+.wrapper {
+grid-template-rows: 95vh auto;
+grid-template-columns:100%;
+}
+img{
+height:47vh;
+margin-top:50px;
+width:auto;
+}
+.hand{
+top:70%;
+left:50%;
+width:180px;
+}
+.info{
+width:78%;
+margin:0 auto;
+margin-top:0px;
+margin-left:5px;
+box-shadow:none;
+}
+.txt{
+padding:5px;
+background:none;
+margin-top:-30px;
+padding-bottom:40px;
+}
+.btn {
+margin-left:100px;
+}
+.logo{
+top:-9%;
+left:36%;
+}
+}
 </style>
