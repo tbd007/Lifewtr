@@ -1,4 +1,6 @@
-# kleinefeinetorte
+# LIFEWTR ARTIST EDITION LP
+
+powered by Vue.js
 
 ## Project setup
 ```
