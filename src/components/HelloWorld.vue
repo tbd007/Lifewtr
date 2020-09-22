@@ -32,7 +32,6 @@ export default {
     return {
       images: [
     
-        "/assets/lifewater2.jpg",
         "/assets/lifewater3.png",
         "/assets/lifewater4.jpg"
        
@@ -75,7 +74,7 @@ export default {
   overflow: hidden;
   visibility: visible;
   position: absolute;
-  width:50vw;
+  width:100vw;
   opacity: 1;
 }
 
@@ -104,14 +103,15 @@ height:auto;
 .fade-enter,
 .fade-leave-to {
   visibility: hidden;
-  width:50vw;
+  width:100vw;
   opacity: 0;
 }
 
 img {
   height:80vh;
   width:auto;
-  margin-top:10px;
+  margin-top:20px;
+ 
 }
 
 .main, .slidewrap{
@@ -174,7 +174,7 @@ width:auto;
 }
 
 .txt{
-background:linear-gradient(100deg, white, white, rgba(209, 102, 139, 0.26), rgba(209, 102, 139, 0.33), rgba(54, 42, 70, 0.44));
+
 background-size:cover;
 width:99%;
 padding:50px;
@@ -189,7 +189,7 @@ line-height:1.3em;
 }
 
 .wrapper{
-width:90%;
+width:95%;
 display:grid;
 grid-template-rows:95vh;
 margin-top:10px;
@@ -197,6 +197,7 @@ grid-template-columns: 49% 49%;
 overflow:hidden;
 border:7px solid black;
 margin:0 auto;
+box-shadow:5px 5px 15px rgb(75, 74, 82);
 }
 
 .info{
@@ -224,14 +225,14 @@ grid-template-rows: 99vh auto;
 grid-template-columns:auto;
 }
 img{
-height:300px;
+height:350px;
 margin-top:50px;
 width:auto;
 }
 .hand{
 top:65%;
 left:30%;
-width:290px;
+width:auto;
 }
 .info{
 width:78%;
@@ -260,13 +261,13 @@ left:36%;
   overflow: hidden;
   visibility: visible;
   position: absolute;
-  width:45vw;
+  width:55vw;
   opacity: 1;
 }
 .fade-enter,
 .fade-leave-to {
   visibility: hidden;
-  width:45vw;
+  width:100vw;
   opacity: 0;
 }
 }
